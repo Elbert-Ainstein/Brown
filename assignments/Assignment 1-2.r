@@ -5,7 +5,7 @@ library(dplyr)
 library(broom)
 
 # Read in Data
-data <- read_excel("NBA.xlsx")
+data <- read_excel("../assets/NBA.xlsx")
 View(data)
 
 # Do Linear Regression
